@@ -32,7 +32,7 @@ export default function Navbar() {
                     <a href="/"><span>P</span>ortfolio</a>
                 </div>
                 <div className="nav">
-                    <li id="navBtn" onClick={handleResize}><NavLink exact to='/home' activeClassName='active'>Home</NavLink></li>
+                    <li id="navBtn" onClick={handleResize}><NavLink exact to='/' activeClassName='active'>Home</NavLink></li>
                     <li id="navBtn" onClick={handleResize}><NavLink exact to='/about' activeClassName="active">About</NavLink></li>
                     <li id="navBtn" onClick={handleResize}><NavLink exact to='/projects' activeClassName="active">Projects</NavLink></li>
                     <li id="navBtn" onClick={handleResize}><NavLink exact to='/contact' activeClassName="active">Contact</NavLink></li>
