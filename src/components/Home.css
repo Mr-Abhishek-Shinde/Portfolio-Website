@@ -1,0 +1,12 @@
+.section {
+    background: rgb(255, 255, 255);
+    height: 100%;
+    display: block;
+    position: fixed;
+    overflow-y: scroll;
+    left: 275px;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    opacity: 1;
+}
