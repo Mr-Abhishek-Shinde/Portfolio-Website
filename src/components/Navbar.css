@@ -85,7 +85,7 @@
 
 .sideBar .nav li{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     display: flex;
     color: #000000;
     padding: 4px 15px;
@@ -98,9 +98,9 @@
     color: red;
 }
 
-.sideBar .nav li i {
-    margin-right: 15px;
-    display: flex;
+.sideBar .nav li img{
+    margin-right: 5px;
+    margin-bottom: -4px;
     align-items: center;
     justify-content: center;
 }

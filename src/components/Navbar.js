@@ -2,6 +2,10 @@ import './Navbar.css';
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useState } from 'react';
+import homeImg from './img/icons8-home-24.png';
+import infoImg from './img/icons8-info-squared-24.png';
+import projectsImg from './img/icons8-learning-24.png';
+import contactImg from './img/icons8-contact-24.png';
 
 
 export default function Navbar() {
@@ -32,10 +36,14 @@ export default function Navbar() {
                     <a href="/"><span>P</span>ortfolio</a>
                 </div>
                 <div className="nav">
-                    <li id="navBtn" onClick={handleResize}><NavLink exact to='/' activeClassName='active'>Home</NavLink></li>
-                    <li id="navBtn" onClick={handleResize}><NavLink exact to='/about' activeClassName="active">About</NavLink></li>
-                    <li id="navBtn" onClick={handleResize}><NavLink exact to='/projects' activeClassName="active">Projects</NavLink></li>
-                    <li id="navBtn" onClick={handleResize}><NavLink exact to='/contact' activeClassName="active">Contact</NavLink></li>
+                    <li id="navBtn" onClick={handleResize}><NavLink exact to='/' activeClassName='active'><img src={homeImg}
+                                alt=""/> Home</NavLink></li>
+                    <li id="navBtn" onClick={handleResize}><NavLink exact to='/about' activeClassName="active"><img src={infoImg}
+                                alt=""/> About</NavLink></li>
+                    <li id="navBtn" onClick={handleResize}><NavLink exact to='/projects' activeClassName="active"><img src={projectsImg}
+                                alt=""/> Projects</NavLink></li>
+                    <li id="navBtn" onClick={handleResize}><NavLink exact to='/contact' activeClassName="active"><img src={contactImg}
+                                alt=""/> Contact</NavLink></li>
                 </div>
             </div>
             <div className="nav-toggler" id="toggleBtn1" onClick={navFxn}>
