@@ -36,7 +36,8 @@
 
 .myInfo h2 {
     font-size: 26px;
-    color: #ff0066;
+    /* color: #ff0066; */
+    color: rgb(164, 7, 169)
 }
 
 .myInfo h2.shortInfo {

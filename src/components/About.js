@@ -64,7 +64,7 @@ export default function About() {
                                     <div className="skill_bar">
                                         <div className="info">
                                             <p>HTML</p>
-                                            <p>90%</p>
+                                            <p>95%</p>
                                         </div>
                                         <div className="bar">
                                             <span className="html"></span>
@@ -73,7 +73,7 @@ export default function About() {
                                     <div className="skill_bar">
                                         <div className="info">
                                             <p>CSS</p>
-                                            <p>85%</p>
+                                            <p>87%</p>
                                         </div>
                                         <div className="bar">
                                             <span className="css"></span>
@@ -81,17 +81,8 @@ export default function About() {
                                     </div>
                                     <div className="skill_bar">
                                         <div className="info">
-                                            <p>SASS</p>
-                                            <p>80%</p>
-                                        </div>
-                                        <div className="bar">
-                                            <span className="sass"></span>
-                                        </div>
-                                    </div>
-                                    <div className="skill_bar">
-                                        <div className="info">
                                             <p>Java Script</p>
-                                            <p>80%</p>
+                                            <p>70%</p>
                                         </div>
                                         <div className="bar">
                                             <span className="js"></span>
@@ -100,7 +91,7 @@ export default function About() {
                                     <div className="skill_bar">
                                         <div className="info">
                                             <p>React js</p>
-                                            <p>75%</p>
+                                            <p>60%</p>
                                         </div>
                                         <div className="bar">
                                             <span className="react"></span>
@@ -108,29 +99,20 @@ export default function About() {
                                     </div>
                                     <div className="skill_bar">
                                         <div className="info">
-                                            <p>Node js</p>
-                                            <p>70%</p>
+                                            <p>Python</p>
+                                            <p>84%</p>
                                         </div>
                                         <div className="bar">
-                                            <span className="node"></span>
+                                            <span className="python"></span>
                                         </div>
                                     </div>
                                     <div className="skill_bar">
                                         <div className="info">
-                                            <p>Express js</p>
-                                            <p>65%</p>
+                                            <p>C</p>
+                                            <p>62%</p>
                                         </div>
                                         <div className="bar">
-                                            <span className="express"></span>
-                                        </div>
-                                    </div>
-                                    <div className="skill_bar">
-                                        <div className="info">
-                                            <p>Mongo DB</p>
-                                            <p>60%</p>
-                                        </div>
-                                        <div className="bar">
-                                            <span className="mongo"></span>
+                                            <span className="c"></span>
                                         </div>
                                     </div>
                                 </div>
