@@ -10,20 +10,26 @@ import contactImg from './img/icons8-contact-24.png';
 
 export default function Navbar() {
     const [Show, setShow] = useState(0)
-    function navFxn(){
+    function navFxn(menuu){
         if (Show === 0) {
             setShow(-100);
+            //remove class
+            menuu.currentTarget.classList.remove('chng')
         } else {
             setShow(0);
+            //add class
+            menuu.currentTarget.classList.add('chng')
         }
     }
 
     function handleResize() {
         if (window.innerWidth < 690) {
             setShow(-100);
+            //remove class
         }
         else{
             setShow(0);
+            //add class
         }
     }
 
