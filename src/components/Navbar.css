@@ -151,24 +151,6 @@
     top: 6px;
     left: 0;
     transition: all 0.1s ease;
-<<<<<<< HEAD
-=======
-}
-
-.chng span{
-    transform: rotate(-45deg);
-}
-
-.chng span::before{
-    width: 20px;
-    transform: translateY(6px) rotate(90deg);
-}
-
-
-.chng span::after{
-    width: 00px;
-    /* transform: translateY(-6px) rotate(-45deg); */
->>>>>>> 2ccc7708cf4a804bf2ac4e389ae59b02b68dffc7
 }
 
 /* responsiveness */
