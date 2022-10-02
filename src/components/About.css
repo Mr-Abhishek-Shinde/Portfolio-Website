@@ -1,0 +1,321 @@
+.aboutSection {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 15px 50px 15px 35px;
+    color: black;
+}
+
+.aboutContainer {
+    height: 100%;
+    width: calc(100% - 275px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.secTitle{
+    width: 100%;
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Bungee Spice';
+}
+
+.timeline-area {
+    margin: 10px auto;
+    margin-top: 0;
+    width: 55vw;
+    border-left: 4px solid black;
+    padding: 15px 20px 0 30px;
+    animation: moveline 2.9s linear forwards;
+}
+
+@keyframes moveline {
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 85%;
+    }
+}
+
+.timeline-area div {
+    background-color: #fff;
+    padding: 20px 25px;
+    font-size: 14px;
+    border: 7px double rgba(255, 255, 255, 0.73);
+    line-height: 1.7;
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(45deg, #1f1b16, #4e2c50);
+    color: white;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes movedown {
+    0%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.timeline-area div:nth-child(1){
+    animation-delay: 0s;
+}
+.timeline-area div:nth-child(2){
+    animation-delay: 1s;
+}
+.timeline-area div:nth-child(3){
+    animation-delay: 1.9s;
+}
+.timeline-area div:nth-child(4){
+    animation-delay: 2.6s;
+}
+
+.timeline-area div::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    border: 3px solid black;
+    position: absolute;
+    top: 10px;
+    left: -44px;
+}
+
+.timeline-area div::after {
+    content: "";
+    display: block;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-color: transparent black transparent transparent;
+    border-width: 8px;
+    position: absolute;
+    top: 7px;
+    left: -23px;
+}
+
+.timeline-area div h2 {
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    /* color: green; */
+}
+
+.timeline-area div h3 {
+    font-family: cursive;
+    margin: 0;
+}
+
+.timeline-area div h4 {
+    margin: 0;
+}
+
+.edu h1,
+.exp h1 {
+    font-family: 'Cormorant SC', serif;
+    font-size: 40px;
+    font-weight: 900;
+    left: -7px;
+    top: 7px;
+    position: relative;
+    color: rgb(13, 1, 65);
+    letter-spacing: 2px;
+    text-shadow: 
+      2px 2px 0px #adabab, 
+      4px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+.edu{
+    margin-bottom: 60px;
+}
+
+.about1 {
+    width: 78vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* skills section */
+
+.skillsCont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills_section{
+    width: 100%;
+    height: 80vh;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 8px double #510954;
+    margin: 60px 0px 20px 0px;
+}
+
+.skills_head{
+    width: 100%;
+    margin-bottom: 70px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.skills_head h2{
+    font-family: BRUX;
+    letter-spacing: 2px;
+    font-size: 52px;
+}
+
+.skills_head h2 span{
+    color: #e74d06;
+}
+
+.skills_head p{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: cursive;
+}
+
+.skills_main{
+    font-family: cursive;
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+
+.skills_main .skill_bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+.skill_bar .info p:nth-child(2){
+    font-weight: 500;
+}
+.skill_bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.144);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+.skill_bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    /* background-color: #e74d06; */
+    background-color: #68276c;
+    border-radius: 25px;
+}
+.skill_bar .bar .html{
+    width: 90%;
+    animation: html 2s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill_bar .bar .css{
+    width: 85%;
+    animation: css 2s;
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }100%{
+        width: 85%;
+    }
+}
+.skill_bar .bar .sass{
+    width: 80%;
+    animation: sass 2s;
+}
+@keyframes sass {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .js{
+    width: 80%;
+    animation: css 2s;
+}
+@keyframes js {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+.skill_bar .bar .react{
+    width: 75%;
+    animation: react 2s;
+}
+@keyframes react {
+    0%{
+        width: 0%;
+    }100%{
+        width: 75%;
+    }
+}
+.skill_bar .bar .node{
+    width: 70%;
+    animation: node 2s;
+}
+@keyframes node {
+    0%{
+        width: 0%;
+    }100%{
+        width: 70%;
+    }
+}
+.skill_bar .bar .express{
+    width: 65%;
+    animation: express 2s;
+}
+@keyframes express {
+    0%{
+        width: 0%;
+    }100%{
+        width: 65%;
+    }
+}
+.skill_bar .bar .mongo{
+    width: 60%;
+    animation: mongo 2s;
+}
+@keyframes mongo {
+    0%{
+        width: 0%;
+    }100%{
+        width: 60%;
+    }
+}
+

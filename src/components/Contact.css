@@ -67,6 +67,7 @@
     flex-direction: column;
     width: calc(100% - 275px);
     margin-top: 10px;
+    margin-bottom: 30px;
     padding: 10px 20px;
     border: 5px double black;
     
@@ -173,12 +174,12 @@ input[type="submit"]:active {
     .mob,
     .mail,
     .linkedin {
-        font-size: 13px;
+        font-size: 14px;
         padding: 14px;
     }
 
     .contactTitle2 {
-        font-size: 20px;
+        font-size: 21px;
         text-align: center;
     }
 
@@ -188,16 +189,16 @@ input[type="submit"]:active {
 
     .contactInfo2 form {
         margin-top: 10px;
-        padding: 10px 16px;
+        padding: 15px 16px;
     }
 
     input[type="submit"] {
         border: 2px solid black;
         border-radius: 2px;
-        background: rgb(3, 211, 183);
+        background: rgb(145, 2, 97);
         width: 28%;
         height: 45px;
-        font-size: 95%;
+        font-size: 98%;
         font-weight: 600;
         font-family: cursive;
         font-weight: bold;
