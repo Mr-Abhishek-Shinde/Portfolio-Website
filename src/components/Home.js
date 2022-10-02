@@ -3,8 +3,8 @@ import React from "react";
 import userImg from './img/dummyImg.png';
 import userImg2 from './img/hello_man.png';
 import gitIcon from './img/icons8-github-96.png';
-import linkedinIcon from './img/icons8-instagram-96.png';
-import instaIcon from './img/icons8-linkedin-circled-96.png';
+import instaIcon from './img/icons8-instagram-96.png';
+import linkedinIcon from './img/icons8-linkedin-circled-96.png';
 
 export default function Home() {
     return (
@@ -39,9 +39,9 @@ export default function Home() {
                         <div className="moreDetails3">
                             <h2><span>FIND ME</span> HERE</h2>
                             <div className="findMe">
-                                <img src={gitIcon} alt="" />
-                                <img src={linkedinIcon} alt="" />
-                                <img src={instaIcon} alt="" />
+                                <img src={gitIcon} onClick={() => window.open("https://github.com/Mr-Abhishek-Shinde")} alt="" />
+                                <img src={linkedinIcon} onClick={() => window.open("https://www.linkedin.com/in/abhishek-shinde-7bb403230/")} alt="" />
+                                <img src={instaIcon} onClick={() => window.open("https://github.com/Mr-Abhishek-Shinde")} alt="" />
                             </div>
                         </div>
                     </div>
