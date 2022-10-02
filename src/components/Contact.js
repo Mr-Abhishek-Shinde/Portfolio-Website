@@ -35,7 +35,7 @@ export default function Contact() {
     const [Email, onChangeEmail] = useState("");
     const [Msg, onChangeMsg] = useState("");
 
-    const areAllFieldsFilled = (Name !== "") && (Email !== "") && (Msg !== "");
+    const areAllFieldsFilled = (Name !== "") && (Email !== "") && (Msg !== "") && (Email.includes('@'));
 
     return (
         <div id="contact">

@@ -14,7 +14,7 @@
     color: rgb(14, 1, 72);
 }
 
-.contactInfo1{
+.contactInfo1 {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -54,25 +54,28 @@
     color: rgb(8, 1, 37);
 }
 
-.contactInfo2{
+.contactInfo2 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: calc(100% - 275px);
 }
-.contactInfo2 form{
+
+.contactInfo2 form {
     display: flex;
     flex-direction: column;
     width: calc(100% - 275px);
     margin-top: 10px;
     padding: 10px 20px;
     border: 5px double black;
+    
+    font-family: 'Cormorant SC', serif;
 }
 
 
 /* form styling */
-form label{
+form label {
     font-size: 18px;
     font-weight: 700;
 }
@@ -90,19 +93,15 @@ textarea {
 input[type="submit"] {
     border: 2px solid black;
     border-radius: 2px;
-    background:  rgb(3, 211, 183);
+    background: rgb(3, 211, 183);
     width: 16%;
     height: 45px;
-    font-size: 125%;
-    font-weight: 600;
-    font-family: cursive;
+    font-size: 130%;
+    font-weight: 700;
+    font-family: 'Cormorant SC', serif;
     font-weight: bold;
     position: relative;
     left: 42%;
-}
-
-input[type="submit"] {
-    margin: 0px 40px 0px 0px;
     color: white;
     cursor: pointer;
 }
@@ -112,35 +111,97 @@ input[type="submit"]:active {
     transform: translateY(2px);
 }
 
-
-
-@media (max-width:1000px) {}
+/* resoponsive */
 
 @media (max-width: 1000px) {
     .contactContainer {
         padding: 10px 10px 15px 15px;
     }
 
-    .contactInfo1 div a {
-        text-align: center;
+    .contactInfo1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 50px;
     }
 
     .contactTitle {
-        padding-top: 40px;
+        padding-top: 15px;
+        width: 100%;
+        text-align: center;
     }
 
     .mob,
     .mail,
     .linkedin {
         align-items: center;
+        margin-top: 20px;
+    }
+
+    .contactTitle2 {
+        font-size: 26px;
+    }
+
+    .contactInfo2 {
+        width: 100%;
+    }
+
+    .contactInfo2 form {
+        width: 100%;
+        margin-top: 15px;
     }
 }
 
 @media (max-width: 690px) {
     .contactContainer {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
         padding: 40px 20px;
+    }
+
+    .contactTitle {
+        padding-top: 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .contactInfo1 img {
+        width: 35px;
+        height: 35px;
+        margin-bottom: 14px;
+    }
+    
+    .mob,
+    .mail,
+    .linkedin {
+        font-size: 13px;
+        padding: 14px;
+    }
+
+    .contactTitle2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .contactInfo2 {
+        width: 100%;
+    }
+
+    .contactInfo2 form {
+        margin-top: 10px;
+        padding: 10px 16px;
+    }
+
+    input[type="submit"] {
+        border: 2px solid black;
+        border-radius: 2px;
+        background: rgb(3, 211, 183);
+        width: 28%;
+        height: 45px;
+        font-size: 95%;
+        font-weight: 600;
+        font-family: cursive;
+        font-weight: bold;
+        position: relative;
+        left: 36%;
     }
 }
