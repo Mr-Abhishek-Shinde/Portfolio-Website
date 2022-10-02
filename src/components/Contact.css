@@ -1,5 +1,5 @@
 .contactSection {
-    width: 100%;
+    width: calc(100% - 275px);
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -8,17 +8,20 @@
 }
 
 .contactSection .contactTitle {
-    font-size: 32px;
+    font-size: 35px;
     font-family: BRUX;
     letter-spacing: 2px;
-    color: rgb(14, 1, 72);
+    color: #510954;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .contactInfo1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: calc(100% - 275px);
+    width: 100%;
     margin-bottom: 50px;
 }
 
@@ -51,7 +54,7 @@
     font-size: 28px;
     font-family: BRUX;
     letter-spacing: 2px;
-    color: rgb(8, 1, 37);
+    color: #a93f0e;
 }
 
 .contactInfo2 {
@@ -59,7 +62,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: calc(100% - 275px);
+    width: 100%;
 }
 
 .contactInfo2 form {
@@ -69,7 +72,7 @@
     margin-top: 10px;
     margin-bottom: 30px;
     padding: 10px 20px;
-    border: 5px double black;
+    border: 5px double rgb(80, 8, 72);
     
     font-family: 'Cormorant SC', serif;
 }
@@ -94,7 +97,7 @@ textarea {
 input[type="submit"] {
     border: 2px solid black;
     border-radius: 2px;
-    background: rgb(3, 211, 183);
+    background: rgb(145, 2, 97);
     width: 16%;
     height: 45px;
     font-size: 130%;
@@ -115,6 +118,10 @@ input[type="submit"]:active {
 /* resoponsive */
 
 @media (max-width: 1000px) {
+    .contactSection {
+        width: 100%;
+    }
+
     .contactContainer {
         padding: 10px 10px 15px 15px;
     }
@@ -179,7 +186,7 @@ input[type="submit"]:active {
     }
 
     .contactTitle2 {
-        font-size: 21px;
+        font-size: 23px;
         text-align: center;
     }
 
@@ -195,7 +202,6 @@ input[type="submit"]:active {
     input[type="submit"] {
         border: 2px solid black;
         border-radius: 2px;
-        background: rgb(145, 2, 97);
         width: 28%;
         height: 45px;
         font-size: 98%;
