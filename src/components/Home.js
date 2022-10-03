@@ -7,6 +7,9 @@ import instaIcon from './img/icons8-instagram-96.png';
 import linkedinIcon from './img/icons8-linkedin-circled-96.png';
 
 import { motion } from "framer-motion";
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const pageVariants = {
     in: {
@@ -23,19 +26,24 @@ const pageTrans = {
 }
 
 export default function Home() {
+    useEffect(() => {
+      Aos.init({ duration: 1500 });
+    }, []);
+    
+
     return (
         <motion.div id="home" initial="out" animate="in" exit="out" transition={pageTrans} variants={pageVariants}>
             <section className="homeSection section" id="sect">
                 <div className="homeContainer">
                     <div className="someInfo">
                         <div className="myInfo">
-                            <h2>Hello!<span className="wave">👋</span> I'm</h2>
-                            <h1 className="myName">Abhishek Shinde</h1>
-                            <h2 className="shortInfo">A Creative Web Developer from <span>COEP</span></h2>
+                            <h2 data-aos="fade-down">Hello!<span className="wave">👋</span> I'm</h2>
+                            <h1 className="myName" data-aos="slide-right">Abhishek Shinde</h1>
+                            <h2 className="shortInfo" data-aos="fade">A Creative Web Developer from <span>COEP</span></h2>
                             <p>I am SY student at COEP currently pursuing B.Tech in Computer Science and I am a Creative
                                 Web Developer...</p>
                         </div>
-                        <div className="myPhoto">
+                        <div className="myPhoto" data-aos="zoom-in">
                             <img src={userImg} alt="" />
                         </div>
                     </div>

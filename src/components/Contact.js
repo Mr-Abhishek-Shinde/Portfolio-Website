@@ -9,6 +9,9 @@ import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
 
 import { motion } from "framer-motion";
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const pageVariants = {
     in: {
@@ -53,11 +56,16 @@ export default function Contact() {
 
     const areAllFieldsFilled = (Name !== "") && (Email !== "") && (Msg !== "") && (Email.includes('@'));
 
+
+    useEffect(() => {
+        Aos.init({ duration: 1500 });
+      }, []);
+      
     return (
         <motion.div id="contact" initial="out" animate="in" exit="out" transition={pageTrans} variants={pageVariants}>
             <ToastContainer />
             <section className="contactSection section" id="sect">
-                <h1 className="contactTitle">Contact Me</h1>
+                <h1 className="contactTitle" data-aos="flip-down">Contact Me</h1>
                 <div className="contactInfo1">
                     <div className="mob">
                         <img src={callIcon} alt="" />

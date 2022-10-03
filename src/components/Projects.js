@@ -4,6 +4,9 @@ import msImg from './img/mindspark.jpg';
 import impImg from './img/impressions.jpg';
 
 import { motion } from "framer-motion";
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const pageVariants = {
     in: {
@@ -20,10 +23,14 @@ const pageTrans = {
 }
 
 export default function Projects() {
+    useEffect(() => {
+        Aos.init({ duration: 1500 });
+      }, []);
+      
     return (
         <motion.div id="projects" initial="out" animate="in" exit="out" transition={pageTrans} variants={pageVariants}>
             <section className="projectsSection section" id="sect">
-                <div className="projectTitle">
+                <div className="projectTitle" data-aos="flip-up">
                     <h1>My Works</h1>
                     <p>My work mainly consists of website development for COEP MindSpark and COEP Impressions.</p>
                 </div>

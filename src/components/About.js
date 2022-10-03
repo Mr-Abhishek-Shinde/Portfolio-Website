@@ -2,6 +2,9 @@ import './About.css';
 import React from "react";
 
 import { motion } from "framer-motion";
+import Aos from 'aos';
+import "aos/dist/aos.css";
+import { useEffect } from 'react';
 
 const pageVariants = {
     in: {
@@ -18,11 +21,15 @@ const pageTrans = {
 }
 
 export default function About() {
+    useEffect(() => {
+        Aos.init({ duration: 1500 });
+      }, []);
+
     return (
         <motion.div id="about" initial="out" animate="in" exit="out" transition={pageTrans} variants={pageVariants}>
                 <section className="aboutSection section" id="sect">
                     <div className="aboutContainer">
-                        <h1 className="secTitle">Know More About Me</h1>
+                        <h1 className="secTitle"  data-aos="flip-right">Know More About Me</h1>
                         <div className="edu">
                             <h1>Education</h1>
                             <div className="timeline-area">
@@ -43,7 +50,7 @@ export default function About() {
                                 </div>
                             </div>
                         </div>
-                        <div className="exp">
+                        <div className="exp" >
                             <h1>Experience</h1>
                             <div className="timeline-area">
                                 <div>
