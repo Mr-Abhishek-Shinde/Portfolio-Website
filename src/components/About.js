@@ -1,9 +1,25 @@
 import './About.css';
 import React from "react";
 
+import { motion } from "framer-motion";
+
+const pageVariants = {
+    in: {
+        opacity : 1,
+    },
+    out: {
+        opacity : 0,
+    }
+};
+
+const pageTrans = {
+    transition: "linear",
+    duration: 0.2
+}
+
 export default function About() {
     return (
-        <div id="about">
+        <motion.div id="about" initial="out" animate="in" exit="out" transition={pageTrans} variants={pageVariants}>
                 <section className="aboutSection section" id="sect">
                     <div className="aboutContainer">
                         <h1 className="secTitle">Know More About Me</h1>
@@ -121,6 +137,6 @@ export default function About() {
                         </div>
                     </div>
                 </section>
-            </div>
+            </motion.div>
     )
 }

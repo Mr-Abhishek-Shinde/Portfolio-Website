@@ -6,9 +6,25 @@ import gitIcon from './img/icons8-github-96.png';
 import instaIcon from './img/icons8-instagram-96.png';
 import linkedinIcon from './img/icons8-linkedin-circled-96.png';
 
+import { motion } from "framer-motion";
+
+const pageVariants = {
+    in: {
+        opacity : 1,
+    },
+    out: {
+        opacity : 0,
+    }
+};
+
+const pageTrans = {
+    transition: "linear",
+    duration: 0.2
+}
+
 export default function Home() {
     return (
-        <div id="home">
+        <motion.div id="home" initial="out" animate="in" exit="out" transition={pageTrans} variants={pageVariants}>
             <section className="homeSection section" id="sect">
                 <div className="homeContainer">
                     <div className="someInfo">
@@ -48,6 +64,6 @@ export default function Home() {
                 </div>
             </section>
 
-        </div>
+        </motion.div>
     )
 }

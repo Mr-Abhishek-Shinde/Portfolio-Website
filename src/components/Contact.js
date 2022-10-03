@@ -8,6 +8,22 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
 
+import { motion } from "framer-motion";
+
+const pageVariants = {
+    in: {
+        opacity : 1,
+    },
+    out: {
+        opacity : 0,
+    }
+};
+
+const pageTrans = {
+    transition: "linear",
+    duration: 0.2
+}
+
 export default function Contact() {
     const form = useRef();
 
@@ -38,7 +54,7 @@ export default function Contact() {
     const areAllFieldsFilled = (Name !== "") && (Email !== "") && (Msg !== "") && (Email.includes('@'));
 
     return (
-        <div id="contact">
+        <motion.div id="contact" initial="out" animate="in" exit="out" transition={pageTrans} variants={pageVariants}>
             <ToastContainer />
             <section className="contactSection section" id="sect">
                 <h1 className="contactTitle">Contact Me</h1>
@@ -74,6 +90,6 @@ export default function Contact() {
                     </form>
                 </div>
             </section>
-        </div>
+        </motion.div>
     )
 }

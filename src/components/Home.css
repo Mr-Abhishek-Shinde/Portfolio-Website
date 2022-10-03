@@ -265,6 +265,7 @@
         left: 0;
         top: 80px;
         padding-top: 25px;
+        overflow-y: auto;
     }
 
     .someInfo {
