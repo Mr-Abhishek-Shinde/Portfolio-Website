@@ -72,9 +72,9 @@ export default function Contact() {
                     <div className="linkedin">
                         <img src={linkedIcon} alt="" />
                         <h1>LinkedIn</h1>
-                        <a href="https://www.linkedin.com/in/abhishek-shinde-7bb403230/">
+                        <p onClick={() => window.open("https://www.linkedin.com/in/abhishek-shinde-7bb403230/")}>
                             <h3>https://www.linkedin.com/in/ <br /> abhishek-shinde-7bb403230/</h3>
-                        </a>
+                        </p>
                     </div>
                 </div>
                 <div className="contactInfo2">

@@ -250,6 +250,10 @@
         width: 85%;
     }
 
+    .section{
+        overflow-y: auto;
+    }
+
 }
 
 @media (max-width: 1000px) and (min-width: 690px) {
@@ -265,7 +269,6 @@
         left: 0;
         top: 80px;
         padding-top: 25px;
-        overflow-y: auto;
     }
 
     .someInfo {

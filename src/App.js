@@ -2,7 +2,7 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
-// import Projects from "./components/Projects";
+import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
 import { AnimatePresence } from "framer-motion";
@@ -22,7 +22,7 @@ function App() {
         <Route exact path='/' element={<Navbar />} >
           <Route index element={<Home/>} />
           <Route exact path='/about' element={<About />} />
-          {/* <Route path='/projects' element={<Projects/>} /> */}
+          <Route exact path='/projects' element={<Projects/>} />
           <Route exact path='/contact' element={<Contact />} />
         </Route>
       </Switch>

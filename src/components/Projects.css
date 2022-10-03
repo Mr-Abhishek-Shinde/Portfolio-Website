@@ -1,0 +1,91 @@
+/* project section */
+
+.projectsSection {
+    width: calc(100% - 275px);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 15px 30px 15px 30px;
+    color: black;
+}
+
+.projectsSection .projectTitle {
+    font-size: 35px;
+    font-family: BRUX;
+    letter-spacing: 2px;
+    color: #d24504;
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.projectsSection .projectTitle p {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: cursive;
+    color: rgba(0, 0, 0, 0.75);
+    letter-spacing: normal;
+}
+
+.projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.pro1,
+.pro2,
+.pro3,
+.pro4 {
+    height: 430px;
+    width: 250px;
+    margin: 20px 20px;
+    border: 2px solid black;
+    /* background: linear-gradient(to top, transparent, #ec5712, rgb(190, 52, 178, 0.9)); */
+    background: linear-gradient(to top, #1f1b16, #610166);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 10px 35px 10px;
+    border: 7px double rgba(255, 255, 255, 0.73);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.pro1 img,
+.pro2 img {
+    width: 140px;
+    height: 140px;
+}
+
+.pro3 img,
+.pro4 img {
+    width: 220px;
+    height: 150px;
+}
+
+.taskInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.taskInfo h3{
+    font-size: 20px;
+    line-height: 22px;
+    margin: 0px 0px 12px 0px;
+}
+
+.taskInfo p{
+    margin-top: 40px;
+    color: #e74d06;
+}
+
+.taskInfo .accessible1 {
+    color: #06e768;
+    cursor: pointer;
+}

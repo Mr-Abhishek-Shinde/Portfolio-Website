@@ -11,7 +11,7 @@
     font-size: 35px;
     font-family: BRUX;
     letter-spacing: 2px;
-    color: #510954;
+    color: #5b035e;
     width: 100%;
     margin-bottom: 15px;
     text-align: center;
@@ -31,6 +31,11 @@
     flex-wrap: wrap;
     align-items: center;
     /* justify-content: center; */
+}
+
+.contactInfo1 .linkedin p{
+    color: rgb(53, 3, 179);
+    cursor: pointer;
 }
 
 .contactInfo1 img {
