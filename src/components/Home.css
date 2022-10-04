@@ -25,9 +25,11 @@
 
 .myPhoto img {
     width: 300px;
-    height: 350px;
-    border: 4px solid black;
-    padding: 5px;
+    height: 390px;
+    border: 3.5px solid black;
+    padding: 4px;
+    user-select: none;
+    pointer-events: none;
 }
 
 .myInfo {
@@ -66,6 +68,29 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.myPhoto::before {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-bottom: 5px solid #ff5e00;
+    border-right: 5px solid #ff5e00;
+    bottom: -12px;
+    right: -18px;
+    transition: all 0.5s ease;
+}
+
+.myPhoto::after {
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-top: 5px solid #ff5e00;
+    border-left: 5px solid #ff5e00;
+    top: -16px;
+    left: -17px;
+    transition: all 0.5s ease;
+}
 
 
 /* waving hand animation */
@@ -224,7 +249,21 @@
 
     .myPhoto img {
         width: 260px;
-        height: 320px;
+        height: 335px;
+    }
+
+    .myPhoto::before {
+        border-bottom: 4.5px solid #ff5e00;
+        border-right: 4.5px solid #ff5e00;
+        bottom: -4px;
+        right: -10px;
+    }
+    
+    .myPhoto::after {
+        border-top: 4.5px solid #ff5e00;
+        border-left: 4.5px solid #ff5e00;
+        top: -10px;
+        left: -11px;
     }
 
     .myInfo h2 {
@@ -326,8 +365,12 @@
 
     .someInfo{
         flex-direction: column;
-        justify-content: none;
+        justify-content: flex-start;
         height: 100%;
+    }
+
+    .myInfo{
+        margin-bottom: 80px;
     }
 
     .sideBar {
@@ -337,8 +380,22 @@
 
     .myPhoto img {
         margin-top: 30px;
-        height: 250px;
-        width: 225px;
+        height: 255px;
+        width: 205px;
+    }
+
+    .myPhoto::before {
+        border-bottom: 4.5px solid #ff5e00;
+        border-right: 4.5px solid #ff5e00;
+        bottom: -3px;
+        right: -10px;
+    }
+    
+    .myPhoto::after {
+        border-top: 4.5px solid #ff5e00;
+        border-left: 4.5px solid #ff5e00;
+        top: 22px;
+        left: -9px;
     }
 
     .myInfo {

@@ -1,6 +1,7 @@
 import './Home.css';
 import React from "react";
-import userImg from './img/dummyImg.png';
+// import userImg from './img/dummyImg.png';
+import userImg from './img/profileImg.jpg';
 import userImg2 from './img/hello_man.png';
 import gitIcon from './img/icons8-github-96.png';
 import instaIcon from './img/icons8-instagram-96.png';
@@ -33,6 +34,7 @@ export default function Home() {
 
     return (
         <motion.div id="home" initial="out" animate="in" exit="out" transition={pageTrans} variants={pageVariants}>
+            
             <section className="homeSection section" id="sect">
                 <div className="homeContainer">
                     <div className="someInfo">
