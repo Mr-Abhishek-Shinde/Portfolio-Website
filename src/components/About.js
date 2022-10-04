@@ -29,13 +29,13 @@ export default function About() {
         <motion.div id="resume" initial="out" animate="in" exit="out" transition={pageTrans} variants={pageVariants}>
             <section class="resumeSection section" id="sect">
                 <div class="resumeContainer">
-                <h1 className="secTitle"  data-aos="flip-right">Know More About Me</h1>
+                    <h1 className="secTitl" data-aos="flip-right">Know More About Me</h1>
                     <div class="addInfo">
                         <h1>About Me -</h1>
-                    <div class="abtMe1">
-                        <h6>I am a focused and enthusiastic developer with a keen interest in Software development, Data Science and Machine Learning. I am looking forward to explore this field and apply my knowledge to solve real-world industry problems.</h6>
-                        <h6>I'm an Explorer, Devoted, Empathetic, Consistent Person.</h6>
-                    </div>
+                        <div class="abtMe1">
+                            <h6>I am a focused and enthusiastic developer with a keen interest in Software development, Data Science and Machine Learning. I am looking forward to explore this field and apply my knowledge to solve real-world industry problems.</h6>
+                            <h6>I'm an Explorer, Devoted, Empathetic, Consistent Person.</h6>
+                        </div>
 
                         <p>Birth-date: <span>6 August 2003</span></p>
                         <p>City: <span>Wai, Satara.</span></p>
