@@ -21,3 +21,52 @@
     font-family: 'Bungee Spice';
 }
 
+.resumeContainer div h1{
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Pacifico', cursive;
+    color: #510954;
+    margin: 50px 0px 20px 0px;
+}
+
+.resumeContainer div h6{
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: rgb(2, 114, 62);
+}
+
+.resumeContainer div p{
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.resumeContainer div p span{
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+
+.abtMe1{
+    margin-bottom: 45px;
+}
+
+.addInfo{
+    margin-bottom: 50px;
+}
+
+.skills1 li{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0 0 50px;
+    color: rgb(2, 114, 62);
+}
+
+.skills{
+    padding-bottom: 60px;
+}

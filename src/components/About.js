@@ -32,28 +32,31 @@ export default function About() {
                 <h1 className="secTitle"  data-aos="flip-right">Know More About Me</h1>
                     <div class="addInfo">
                         <h1>About Me -</h1>
-                        <p>I am a focused and enthusiastic developer with a keen interest in Software development, Data Science and Machine Learning. I am looking forward to explore this field and apply my knowledge to solve real-world industry problems.</p>
-                        <p>I'm an Explorer, Devoted, Empathetic, Consistent Person.</p>
+                    <div class="abtMe1">
+                        <h6>I am a focused and enthusiastic developer with a keen interest in Software development, Data Science and Machine Learning. I am looking forward to explore this field and apply my knowledge to solve real-world industry problems.</h6>
+                        <h6>I'm an Explorer, Devoted, Empathetic, Consistent Person.</h6>
+                    </div>
 
-                        <p>Birth-date: 6 August 2003</p>
-                        <p>City: Wai, Satara.</p>
-                        <p>Email: abhishinde889@gmail.com</p>
+                        <p>Birth-date: <span>6 August 2003</span></p>
+                        <p>City: <span>Wai, Satara.</span></p>
+                        <p>Email: <span>abhishinde889@gmail.com</span></p>
                     </div>
                     <div class="hobby">
                         <h1>My Hobbies -</h1>
-                        <p>My hobbies include Travelling, Gaming, Coding, Listening Music and Star Gazing.</p>
-                        <p>I also enjoy watching Horror and Thriller movies.</p>
-                        <p>I also have interest in Quantum Physics. </p>
+                        <h6>My hobbies include Travelling, Gaming, Coding, Listening Music and Star Gazing.</h6>
+                        <h6>I also enjoy watching Horror and Thriller movies.</h6>
+                        <h6>I also have interest in Quantum Physics. </h6>
                     </div>
 
                     <div class="skills">
-                        <h1>My Skills</h1>
-                        <p>My skills include:</p>
-                        <p>Problem Solving</p>
-                        <p>Persistance</p>
-                        <p>Team Work</p>
-                        <p>Project Management</p>
-                        <p>Work Under Pressure</p>
+                        <h1>Skills -</h1>
+                        <div class="skills1">
+                            <li>Problem Solving</li>
+                            <li>Persistance</li>
+                            <li>Team Work</li>
+                            <li>Project Management</li>
+                            <li>Work Under Pressur</li>
+                        </div>
                     </div>
                 </div>
             </section>
