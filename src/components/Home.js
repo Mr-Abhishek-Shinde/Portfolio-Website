@@ -67,7 +67,7 @@ export default function Home() {
                             <div className="findMe">
                                 <img src={gitIcon} onClick={() => window.open("https://github.com/Mr-Abhishek-Shinde")} alt="" />
                                 <img src={linkedinIcon} onClick={() => window.open("https://www.linkedin.com/in/abhishek-shinde-7bb403230/")} alt="" />
-                                <img src={instaIcon} onClick={() => window.open("https://github.com/Mr-Abhishek-Shinde")} alt="" />
+                                <img src={instaIcon} onClick={() => window.open("https://instagram.com/__abhi_shinde_06__?igshid=YmMyMTA2M2Y=")} alt="" />
                             </div>
                         </div>
                     </div>

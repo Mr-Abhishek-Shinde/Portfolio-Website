@@ -4,6 +4,7 @@ import { NavLink, Outlet } from "react-router-dom";
 import { useState } from 'react';
 import homeImg from './img/icons8-home-24.png';
 import infoImg from './img/icons8-info-squared-24.png';
+import resumeImg from './img/icons8-profiles-24.png';
 import projectsImg from './img/icons8-learning-24.png';
 import contactImg from './img/icons8-contact-24.png';
 
@@ -46,6 +47,8 @@ export default function Navbar() {
                                 alt=""/> Home</NavLink></li>
                     <li id="navBtn" onClick={handleResize}><NavLink end to='/about'><img src={infoImg}
                                 alt=""/> About</NavLink></li>
+                    <li id="navBtn" onClick={handleResize}><NavLink end to='/resume'><img src={resumeImg}
+                                alt=""/> Resume</NavLink></li>
                     <li id="navBtn" onClick={handleResize}><NavLink end to='/projects'><img src={projectsImg}
                                 alt=""/> Projects</NavLink></li>
                     <li id="navBtn" onClick={handleResize}><NavLink end to='/contact'><img src={contactImg}
