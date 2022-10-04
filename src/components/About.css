@@ -21,7 +21,7 @@
     font-family: 'Bungee Spice';
 }
 
-.resumeContainer div h1{
+.resumeContainer div h1 {
     font-size: 40px;
     font-weight: 800;
     font-family: 'Pacifico', cursive;
@@ -29,7 +29,7 @@
     margin: 50px 0px 20px 0px;
 }
 
-.resumeContainer div h6{
+.resumeContainer div h6 {
     margin-bottom: 15px;
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -37,29 +37,29 @@
     color: rgb(2, 114, 62);
 }
 
-.resumeContainer div p{
+.resumeContainer div p {
     margin-bottom: 12px;
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 700;
 }
 
-.resumeContainer div p span{
+.resumeContainer div p span {
     margin-bottom: 10px;
     font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
 }
 
-.abtMe1{
+.abtMe1 {
     margin-bottom: 45px;
 }
 
-.addInfo{
+.addInfo {
     margin-bottom: 50px;
 }
 
-.skills1 li{
+.skills1 li {
     width: 100%;
     font-size: 20px;
     font-weight: 600;
@@ -67,6 +67,92 @@
     color: rgb(2, 114, 62);
 }
 
-.skills{
+.skills {
     padding-bottom: 60px;
+}
+
+
+
+/* resoponsive */
+
+@media (max-width: 1000px) {
+    .resumeSection {
+        padding: 10px 15px 15px 15px;
+    }
+
+    .resumeContainer {
+        width: 100%;
+    }
+
+    .secTitle {
+        padding: 0 5px;
+        font-size: 55px;
+    }
+
+    .resumeContainer div {
+        padding: 0px 15px;
+    }
+
+    .resumeContainer div h1 {
+        font-size: 30px;
+    }
+
+    .resumeContainer div h6 {
+        font-size: 17px;
+    }
+
+    .resumeContainer div p {
+        font-size: 16px;
+    }
+
+    .resumeContainer div p span {
+        font-size: 16px;
+    }
+
+    .skills1 li {
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width: 690px) {
+    .ResumeContainer {
+        padding: 40px 0px 10px 0px;
+    }
+
+    .secTitle {
+        font-size: 40px;
+        line-height: 43px;
+        margin-bottom: 15px;
+    }
+
+    .resumeContainer div h1 {
+        font-size: 28px;
+        margin: 40px 0px 20px 0px;
+    }
+
+    .resumeContainer div h6 {
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+
+    .resumeContainer div p {
+        font-size: 15px;
+    }
+
+    .resumeContainer div p span {
+        font-size: 15px;
+    }
+
+    .addInfo {
+        margin-bottom: 40px;
+    }
+
+    .skills1 li {
+        width: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 10px 0 0 50px;
+        color: rgb(2, 114, 62);
+    }
 }

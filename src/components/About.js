@@ -55,7 +55,7 @@ export default function About() {
                             <li>Persistance</li>
                             <li>Team Work</li>
                             <li>Project Management</li>
-                            <li>Work Under Pressur</li>
+                            <li>Work Under Pressure</li>
                         </div>
                     </div>
                 </div>
