@@ -74,6 +74,7 @@ export default function Home() {
                                 <img src={linkedinIcon} onClick={() => window.open("https://www.linkedin.com/in/abhishek-shinde-7bb403230/")} alt="" />
                                 <img src={instaIcon} onClick={() => window.open("https://instagram.com/__abhi_shinde_06__?igshid=YmMyMTA2M2Y=")} alt="" />
                             </div>
+                            <p>Made by &#169;Abhishek Shinde</p>
                         </div>
                     </div>
                 </div>
