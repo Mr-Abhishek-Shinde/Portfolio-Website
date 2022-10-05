@@ -12,11 +12,13 @@ Link to the site hosted on [Netlify](https://www.netlify.com/) -
 
 ## Table of Contents
 
-- [About The Project](##About-The-Project)
+- [About The Project](#about-the-project)
 
-- [Run Locally](##Run-Locally)
+- [Features](#features)
 
-- [Aknowledgements](##Aknowkedgements)
+- [Run Locally](#run-locally)
+
+- [Aknowledgements](#acknowledgements)
 
 
 
@@ -32,6 +34,8 @@ This is a personal portfolio website built using [React](https://reactjs.org/) a
 - Fully Responsive
 - Reveal animations using [React-AOS](https://www.npmjs.com/package/aos) and CSS
 - Contact form linked directly to Email using [EmailJS](https://www.emailjs.com/)
+
+
 ## Run Locally
 
 In the project directory, you can run:
@@ -60,7 +64,7 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 ## Acknowledgements
 
- - [freesvg.org](freesvg.org) free png images
- - [pngegg.com](pngegg.com) free png images
- - Free Icons by [icons.com](icons.com)
+ - [freesvg.org](https://freesvg.org) free png images
+ - [pngegg.com](https://pngegg.com) free png images
+ - Free Icons by [icons8.com](https://icons8.com)
  - Awesome open source fonts by [Google Fonts](https://fonts.google.com/)
