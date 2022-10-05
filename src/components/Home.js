@@ -14,10 +14,10 @@ import { useEffect } from 'react';
 
 const pageVariants = {
     in: {
-        opacity : 1,
+        opacity: 1,
     },
     out: {
-        opacity : 0,
+        opacity: 0,
     }
 };
 
@@ -28,19 +28,24 @@ const pageTrans = {
 
 export default function Home() {
     useEffect(() => {
-      Aos.init({ duration: 1500 });
+        Aos.init({ duration: 1500 });
     }, []);
-    
+
 
     return (
         <motion.div id="home" initial="out" animate="in" exit="out" transition={pageTrans} variants={pageVariants}>
-            
+
             <section className="homeSection section" id="sect">
                 <div className="homeContainer">
                     <div className="someInfo">
                         <div className="myInfo">
                             <h2 data-aos="fade-down">Hello!<span className="wave">👋</span> I'm</h2>
-                            <h1 className="myName" data-aos="slide-right">Abhishek Shinde</h1>
+                            {/* <h1 className="myName" data-aos="slide-right">Abhishek Shinde</h1> */}
+                            <h1 class="myName glitch">
+                                <span aria-hidden="true">ABHISHEK SHINDE</span>
+                                ABHISHEK SHINDE
+                                <span aria-hidden="true">ABHISHEK SHINDE</span>
+                            </h1>
                             <h2 className="shortInfo" data-aos="fade">A Creative Web Developer from <span>COEP</span></h2>
                             <p>I am SY student at COEP currently pursuing B.Tech in Computer Science and I am a Creative
                                 Web Developer...</p>

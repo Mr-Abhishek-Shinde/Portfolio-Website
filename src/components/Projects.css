@@ -214,3 +214,21 @@
         margin: 0px 0px 12px 0px;
     }
 }
+
+@media (min-width: 690px) {
+.pro1:hover,
+.pro2:hover,
+.pro3:hover,
+.pro4:hover{
+    transform: scale(1.05);
+    border: 3px solid black;
+}
+}
+@media (max-width: 690px) {
+.pro1:hover,
+.pro2:hover,
+.pro3:hover,
+.pro4:hover{
+    transform: scale(1.05);
+}
+}
