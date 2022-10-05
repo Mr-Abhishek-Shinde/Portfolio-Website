@@ -11,7 +11,7 @@ import { AnimatePresence } from "framer-motion";
 import React from "react";
 import {
   BrowserRouter as Router,
-  Routes as Switch,
+  Routes,
   Route,
 } from "react-router-dom";
 
@@ -19,7 +19,7 @@ function App() {
   return (
     <Router>
       <AnimatePresence exitBeforeEnter>
-      <Switch>
+      <Routes>
         <Route exact path='/' element={<Navbar />} >
           <Route index element={<Home/>} />
           <Route exact path='/about' element={<About />} />
@@ -27,7 +27,7 @@ function App() {
           <Route exact path='/projects' element={<Projects/>} />
           <Route exact path='/contact' element={<Contact />} />
         </Route>
-      </Switch>
+      </Routes>
       </AnimatePresence>
     </Router>
   );
