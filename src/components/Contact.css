@@ -120,6 +120,37 @@ input[type="submit"]:active {
     transform: translateY(2px);
 }
 
+.moreDetails3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* background-color: rgba(1, 1, 57, 0.581); */
+    padding: 50px 0px 10px 10px;
+    margin-top: 0px;
+}
+
+.moreDetails3 h2{
+    color: black;
+    font-size: 30px;
+}
+.moreDetails3 h2 span{
+    color: rgba(164, 7, 169);
+    /* color: #00fffc; */
+}
+
+.findMe img{
+    width: 38px;
+    height: 38px;
+    margin: 0px 10px;
+}
+
+.findMe img:hover{
+    border: rgb(81, 3, 84) solid 3px;
+    border-radius: 50%;
+}
+
+
 /* resoponsive */
 
 @media (max-width: 1000px) {
@@ -215,5 +246,30 @@ input[type="submit"]:active {
         font-weight: bold;
         position: relative;
         left: 36%;
+    }
+
+    .moreDetails2{
+        padding: 20px 12px;
+    }
+
+    .moreDetails3{
+        padding: 10px 0px 10px 10px;
+        margin-top: 25px;
+    }
+
+    .moreDetails3 h2{
+        font-size: 28px;
+    }
+
+    .findMe{
+        display: flex;
+        justify-content: center;
+        /* padding: 10px 2px 0px 2px; */
+    }
+
+    .findMe img{
+        width: 40px;
+        height: 40px;
+        margin: 0px 10px;
     }
 }

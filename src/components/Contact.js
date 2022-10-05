@@ -4,6 +4,9 @@ import emailjs from '@emailjs/browser';
 import callIcon from './img/icons8-phone-96.png';
 import mailIcon from './img/icons8-mail-96.png';
 import linkedIcon from './img/icons8-linkedin-96.png';
+import gitIcon from './img/icons8-github-96.png';
+import instaIcon from './img/icons8-instagram-96.png';
+import linkedinIcon from './img/icons8-linkedin-circled-96.png';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useState } from 'react';
@@ -97,6 +100,15 @@ export default function Contact() {
                         <input type="submit" value="Send" onClick={notify} disabled={!areAllFieldsFilled} />
                     </form>
                 </div>
+                <div className="moreDetails3">
+                            <h2><span>FIND ME</span> HERE</h2>
+                            <div className="findMe">
+                                <img src={gitIcon} onClick={() => window.open("https://github.com/Mr-Abhishek-Shinde")} alt="" />
+                                <img src={linkedinIcon} onClick={() => window.open("https://www.linkedin.com/in/abhishek-shinde-7bb403230/")} alt="" />
+                                <img src={instaIcon} onClick={() => window.open("https://instagram.com/__abhi_shinde_06__?igshid=YmMyMTA2M2Y=")} alt="" />
+                            </div>
+                            <p>Made by &#169;Abhishek Shinde</p>
+                        </div>
             </section>
         </motion.div>
     )

@@ -219,7 +219,7 @@
 
 .moreInfo .moreDetails3 h2{
     color: black;
-    font-size: 34px;
+    font-size: 32px;
 }
 .moreInfo .moreDetails3 h2 span{
     color: rgba(164, 7, 169);
@@ -446,7 +446,7 @@
     }
 
     .moreInfo .moreDetails3{
-        padding: 10px 0px 10px 10px;
+        padding: 10px 0px 0px 10px;
         margin-top: 25px;
     }
 
