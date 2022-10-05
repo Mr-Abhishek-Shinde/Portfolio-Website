@@ -14,7 +14,7 @@ Link to the site hosted on [Netlify](https://www.netlify.com/) -
 
 - [About The Project](#about-the-project)
 
--[Features](#features)
+- [Features](#features)
 
 - [Run Locally](#run-locally)
 
@@ -66,5 +66,5 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
  - [freesvg.org](https://freesvg.org) free png images
  - [pngegg.com](https://pngegg.com) free png images
- - Free Icons by [icons.com](https://icons8.com)
+ - Free Icons by [icons8.com](https://icons8.com)
  - Awesome open source fonts by [Google Fonts](https://fonts.google.com/)
