@@ -375,7 +375,7 @@
 
 @media (max-width: 690px) {
     .aboutContainer {
-        padding: 40px 12px 10px 12px;
+        padding: 40px 0px 0px 0px;
     }
     
     .secTitle {
