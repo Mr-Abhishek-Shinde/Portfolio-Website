@@ -28,12 +28,12 @@ code {
 
 @font-face {
   font-family: VS;
-  src: url("./components/fonts/Variane_Script.ttf")
+  src: url("./fonts/Variane_Script.ttf")
 }
 
 @font-face {
   font-family: BRUX;
-  src: url("./components/fonts/BRUX.ttf")
+  src: url("./fonts/BRUX.ttf")
 }
 
 body {
