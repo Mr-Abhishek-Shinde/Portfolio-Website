@@ -1,4 +1,4 @@
-import './Resume.css';
+import '../styles/Resume.css';
 import React from "react";
 
 import { motion } from "framer-motion";
@@ -59,17 +59,17 @@ export default function Resume() {
                                     <h4>2022-Present</h4>
                                 </div>
                                 <div>
-                                    <h2>CSI COEP Student Chapter</h2>
-                                    <h3>Member</h3>
+                                    <h2>SDS COEP</h2>
+                                    <h3>Software Developer</h3>
                                     <h4>2022-Present</h4>
                                 </div>
                                 <div>
-                                    <h2>COEP Impressions'22</h2>
-                                    <h3>Web Coordinator</h3>
+                                    <h2>COEP Impressions'23</h2>
+                                    <h3>Web Head</h3>
                                     <h4>2022-23</h4>
                                 </div>
                                 <div>
-                                    <h2>COEP MindSpark'22</h2>
+                                    <h2>COEP Impressions'22 | COEP MindSpark'22</h2>
                                     <h3>Web Coordinator</h3>
                                     <h4>2022</h4>
                                 </div>

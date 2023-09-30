@@ -35,10 +35,7 @@
     flex-direction: row;
 }
 
-.pro1,
-.pro2,
-.pro3,
-.pro4 {
+.project-card {
     height: 430px;
     width: 250px;
     margin: 20px 20px;
@@ -55,14 +52,12 @@
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
 
-.pro1 img,
-.pro2 img {
+.project-card img {
     width: 140px;
     height: 140px;
 }
 
-.pro3 img,
-.pro4 img {
+.project-card img {
     width: 220px;
     height: 150px;
 }
@@ -112,10 +107,7 @@
         font-size: 21px;
     }
 
-    .pro1,
-    .pro2,
-    .pro3,
-    .pro4 {
+    .project-card {
         height: 420px;
         width: 265px;
         margin: 22px 20px;
@@ -137,10 +129,7 @@
         font-size: 18px;
     }
 
-    .pro1,
-    .pro2,
-    .pro3,
-    .pro4 {
+    .project-card {
         height: 400px;
         width: 55vw;
         margin: 22px 20px;
@@ -149,10 +138,7 @@
 
 @media (max-width: 500px) {
 
-    .pro1,
-    .pro2,
-    .pro3,
-    .pro4 {
+    .project-card {
         height: 400px;
         width: 65vw;
         margin: 22px 20px;
@@ -172,25 +158,15 @@
         font-size: 15px;
     }
 
-    .pro1 img,
-    .pro2 img {
+    .project-card img {
         width: 135px;
-        height: 135px;
-    }
-
-    .pro3 img,
-    .pro4 img {
-        width: 188px;
         height: 135px;
     }
 }
 
 @media (max-width: 400px) {
 
-    .pro1,
-    .pro2,
-    .pro3,
-    .pro4 {
+    .project-card {
         height: 400px;
         width: 75vw;
         margin: 22px 10px;
@@ -199,10 +175,7 @@
 
 @media (max-width: 350px) {
 
-    .pro1,
-    .pro2,
-    .pro3,
-    .pro4 {
+    .project-card {
         height: 400px;
         width: 75vw;
         margin: 22px 5px;
@@ -216,19 +189,13 @@
 }
 
 @media (min-width: 690px) {
-.pro1:hover,
-.pro2:hover,
-.pro3:hover,
-.pro4:hover{
+.project-card:hover{
     transform: scale(1.05);
     border: 3px solid black;
 }
 }
 @media (max-width: 690px) {
-.pro1:hover,
-.pro2:hover,
-.pro3:hover,
-.pro4:hover{
+.project-card:hover{
     transform: scale(1.05);
 }
 }

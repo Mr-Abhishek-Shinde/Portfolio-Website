@@ -1,10 +1,9 @@
-import './App.css';
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Resume from "./components/Resume";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Resume from "./pages/Resume";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 
 import { AnimatePresence } from "framer-motion";
 

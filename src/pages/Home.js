@@ -1,11 +1,8 @@
-import './Home.css';
+import '../styles/Home.css';
 import React from "react";
-// import userImg from './img/dummyImg.png';
-import userImg from './img/profileImg.jpg';
-import userImg2 from './img/hello_man.png';
-import gitIcon from './img/icons8-github-96.png';
-import instaIcon from './img/icons8-instagram-96.png';
-import linkedinIcon from './img/icons8-linkedin-circled-96.png';
+import userImg from '../img/profileImg.jpg';
+import userImg2 from '../img/hello_man.png';
+import FindMe from '../components/FindMe'
 
 import { motion } from "framer-motion";
 import Aos from 'aos';
@@ -67,15 +64,7 @@ export default function Home() {
                                 <p>I like to listen songs in my free time.</p>
                             </div>
                         </div>
-                        <div className="moreDetails3">
-                            <h2><span>FIND ME</span> HERE</h2>
-                            <div className="findMe">
-                                <img src={gitIcon} onClick={() => window.open("https://github.com/Mr-Abhishek-Shinde")} alt="" />
-                                <img src={linkedinIcon} onClick={() => window.open("https://www.linkedin.com/in/abhishek-shinde-7bb403230/")} alt="" />
-                                <img src={instaIcon} onClick={() => window.open("https://instagram.com/__abhi_shinde_06__?igshid=YmMyMTA2M2Y=")} alt="" />
-                            </div>
-                            <p>Made by &#169;Abhishek Shinde</p>
-                        </div>
+                        <FindMe/>
                     </div>
                 </div>
             </section>

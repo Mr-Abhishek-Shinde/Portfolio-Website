@@ -1,12 +1,12 @@
-import './Navbar.css';
+import '../styles/Navbar.css';
 import React from "react";
 import { NavLink, Outlet } from "react-router-dom";
 import { useState } from 'react';
-import homeImg from './img/icons8-home-24.png';
-import infoImg from './img/icons8-info-squared-24.png';
-import resumeImg from './img/icons8-profiles-24.png';
-import projectsImg from './img/icons8-learning-24.png';
-import contactImg from './img/icons8-contact-24.png';
+import homeImg from '../img/icons8-home-24.png';
+import infoImg from '../img/icons8-info-squared-24.png';
+import resumeImg from '../img/icons8-profiles-24.png';
+import projectsImg from '../img/icons8-learning-24.png';
+import contactImg from '../img/icons8-contact-24.png';
 
 
 export default function Navbar() {
