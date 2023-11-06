@@ -2,6 +2,7 @@ import '../styles/Projects.css';
 import React from "react";
 import msImg from '../img/mindspark.jpg';
 import impImg from '../img/impressions.jpg';
+import pdiImg from '../img/pdiImg.jpg';
 
 import { motion } from "framer-motion";
 import Aos from 'aos';
@@ -39,6 +40,7 @@ export default function Projects() {
                     <ProjectCard title="Impressions'23 Website" info="Official site" link="https://impressionscoeptech.com" img={impImg} />
                     <ProjectCard title="Impressions'22 Events Page" info="Page for official site" link="https://mr-abhishek-shinde.github.io/Impressions-22-Events/" img={impImg} />
                     <ProjectCard title="Mindspark Events Page" info="Task for Induction" link="https://mr-abhishek-shinde.github.io/MindSpark-Events/" img={msImg} />
+                    <ProjectCard title="Plant Disease Identification System" info="ML + MERN Web App" link="https://plant-disease-identification.netlify.app/" img={pdiImg} />
                 </div>
             </section>
         </motion.div>

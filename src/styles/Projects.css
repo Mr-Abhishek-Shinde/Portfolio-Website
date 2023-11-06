@@ -191,6 +191,7 @@
 @media (min-width: 690px) {
 .project-card:hover{
     transform: scale(1.05);
+    transition-duration: 0.3s;
     border: 3px solid black;
 }
 }
